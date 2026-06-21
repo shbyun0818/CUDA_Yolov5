@@ -1,0 +1,19 @@
+# build outputs
+inference/build/
+build/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# models / generated artifacts
+*.pt
+*.onnx
+*.engine
+*.torchscript
+result.jpg
+
+# OS/editor
+.DS_Store
+.vscode/
